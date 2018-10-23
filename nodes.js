@@ -1,4 +1,7 @@
-var richStyle = {
+/**
+ * 节点内容格式化定义.
+ */
+let richStyle = {
 	a: {
       color: '#FFF',
       lineHeight: 15,
@@ -16,6 +19,9 @@ var richStyle = {
   }
 }
 
+/**
+ * 获取节点数据.
+ */
 function getNodes() {
 	let nodes = [{
 	  name: '稳定用户',
@@ -130,6 +136,9 @@ function getNodes() {
 	return nodes;
 }
 
+/**
+ * 获取背景节点数据.
+ */
 function getBackNodes(){
 	let nodes = getNodes()
 	nodes.forEach(node=>{

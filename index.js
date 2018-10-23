@@ -1,8 +1,8 @@
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('main'));
+let myChart = echarts.init(document.getElementById('main'));
 
 // 指定图表的配置项和数据
-var option = {
+let option = {
   title: {
     text: '生命周期',
      textStyle:{

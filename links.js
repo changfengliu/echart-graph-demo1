@@ -1,4 +1,7 @@
-var links = [{
+/**
+ * 获取连线数据.
+ */
+let links = [{
   source: '首单用户',
   target: '新用户',
   lineStyle: {
